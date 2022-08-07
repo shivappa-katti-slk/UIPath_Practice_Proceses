@@ -359,7 +359,7 @@
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
                                     </ui:ReadRange>
-                                    <ui:WriteRange AddHeaders="False" DataTable="[dt_outDt]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="412,115" sap2010:WorkflowViewState.IdRef="WriteRange_2" SheetName="[in_configData(&quot;input_DataCopySheet&quot;).ToString]" StartingCell="A1" WorkbookPath="[in_configData(&quot;input_DataFile&quot;).ToString]">
+                                    <ui:WriteRange AddHeaders="False" DataTable="[dt_outDt]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="412,115" sap2010:WorkflowViewState.IdRef="WriteRange_2" SheetName="[in_configData(&quot;input_DataCopySheet&quot;).ToString]" StartingCell="A2" WorkbookPath="[in_configData(&quot;input_DataFile&quot;).ToString]">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
