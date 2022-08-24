@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>704,2974</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>704,3055</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>TableExtraction_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="39">
@@ -89,7 +89,7 @@
       <AssemblyReference>UiPath.Excel</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TableExtraction" sap:VirtualizedContainerService.HintSize="714,2909" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TableExtraction" sap:VirtualizedContainerService.HintSize="714,2990" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
       <Variable x:TypeArguments="x:Int32" Default="1" Name="counter" />
@@ -264,23 +264,6 @@
     <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[dt_PurchaseData]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="672,87" sap2010:WorkflowViewState.IdRef="ReadRange_2" SheetName="[in_configData(&quot;input_File_SheetName&quot;).ToString]" WorkbookPath="[in_configData(&quot;input_Data_FilePath&quot;).ToString]" />
     <ui:WriteRange AddHeaders="False" DataTable="[dt_PurchaseData]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="672,115" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="[in_configData(&quot;input_FileCopySheet&quot;).ToString]" StartingCell="a2" WorkbookPath="[in_configData(&quot;input_Data_FilePath&quot;).ToString]" />
     <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[dt_QueueData]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="672,87" sap2010:WorkflowViewState.IdRef="ReadRange_3" SheetName="[in_configData(&quot;input_FileCopySheet&quot;).ToString]" WorkbookPath="[in_configData(&quot;input_Data_FilePath&quot;).ToString]" />
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="672,51" sap2010:WorkflowViewState.IdRef="CommentOut_2">
-      <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,224" sap2010:WorkflowViewState.IdRef="Sequence_14">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-          <ui:BulkAddQueueItems TimeoutMS="{x:Null}" DisplayName="Bulk Add Queue Items" FolderPath="[in_configData(&quot;OrchestratorQueueFolder&quot;).ToString]" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="BulkAddQueueItems_1" QueueItemsDataTable="[dt_QueueData]" QueueName="[in_configData(&quot;OrchestratorQueueName&quot;).ToString]" />
-        </Sequence>
-      </ui:CommentOut.Body>
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-    </ui:CommentOut>
+    <ui:BulkAddQueueItems TimeoutMS="{x:Null}" DisplayName="Bulk Add Queue Items" FolderPath="[in_configData(&quot;OrchestratorQueueFolder&quot;).ToString]" sap:VirtualizedContainerService.HintSize="672,132" sap2010:WorkflowViewState.IdRef="BulkAddQueueItems_1" QueueItemsDataTable="[dt_QueueData]" QueueName="[in_configData(&quot;OrchestratorQueueName&quot;).ToString]" />
   </Sequence>
 </Activity>
