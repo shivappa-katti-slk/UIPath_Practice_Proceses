@@ -1,0 +1,17 @@
+﻿{
+  "Id": "ChGLadMDX0qUKSzSU3utXQ",
+  "Reference": "kpis4QdBKUyBtbO37-LNGQ/ChGLadMDX0qUKSzSU3utXQ",
+  "ParentRef": "kpis4QdBKUyBtbO37-LNGQ/02hB8nzI50uBpCRttGouTw",
+  "Name": "Type Into 'Email'",
+  "Type": "Element",
+  "TaxonomyType": "Email",
+  "Created": "2022-08-24T09:59:41.6942958Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-08-24T10:04:24.6597741Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

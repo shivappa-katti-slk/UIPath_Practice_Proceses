@@ -1,0 +1,14 @@
+﻿{
+  "Id": "rkwVT3Pw_EWrOkXowQZnKg",
+  "Reference": "kpis4QdBKUyBtbO37-LNGQ/rkwVT3Pw_EWrOkXowQZnKg",
+  "ParentRef": "kpis4QdBKUyBtbO37-LNGQ/02hB8nzI50uBpCRttGouTw",
+  "Name": "Type Into 'Role in Company'",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-08-24T10:02:34.6814892Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-08-24T10:02:34.6814892Z"
+}

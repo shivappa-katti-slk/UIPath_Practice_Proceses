@@ -1,0 +1,14 @@
+﻿{
+  "Id": "-SQdtuzKd0yqsbF9aTR_yA",
+  "Reference": "kpis4QdBKUyBtbO37-LNGQ/-SQdtuzKd0yqsbF9aTR_yA",
+  "ParentRef": "kpis4QdBKUyBtbO37-LNGQ/mukqiyyshEe4zueJArgGQA",
+  "Name": "Check App State 'PO Number'",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-08-23T17:58:43.9791031Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-08-23T17:58:43.9791031Z"
+}

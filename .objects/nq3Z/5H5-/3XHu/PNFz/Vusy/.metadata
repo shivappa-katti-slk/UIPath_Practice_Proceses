@@ -1,0 +1,14 @@
+﻿{
+  "Id": "Vusy5pLdEE6Rav69wBY-4g",
+  "Reference": "kpis4QdBKUyBtbO37-LNGQ/Vusy5pLdEE6Rav69wBY-4g",
+  "ParentRef": "kpis4QdBKUyBtbO37-LNGQ/PNFzqPiY-Em_pTriwrOY2Q",
+  "Name": "Check App State 'OK'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-08-23T17:33:06.851281Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-08-23T17:33:06.851281Z"
+}

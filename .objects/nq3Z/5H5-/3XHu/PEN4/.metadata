@@ -1,0 +1,18 @@
+﻿{
+  "Id": "PEN4XBuiOk6rDzwO-l7K5Q",
+  "Reference": "kpis4QdBKUyBtbO37-LNGQ/PEN4XBuiOk6rDzwO-l7K5Q",
+  "ParentRef": "kpis4QdBKUyBtbO37-LNGQ/3XHunWqy9UeJm3JTQCQsxQ",
+  "Name": "Password Field - LoginPage",
+  "Description": "This field accepts the password to login",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Created": "2022-08-23T12:02:30.5723327Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-08-23T13:04:36.6742608Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Id": "UeMyiNTqp0SHN5V8X55fnw",
+  "Reference": "kpis4QdBKUyBtbO37-LNGQ/UeMyiNTqp0SHN5V8X55fnw",
+  "ParentRef": "kpis4QdBKUyBtbO37-LNGQ/3XHunWqy9UeJm3JTQCQsxQ",
+  "Name": "Click 'Download Agent'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2022-08-23T11:55:26.8201406Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-08-23T11:55:26.8201406Z"
+}

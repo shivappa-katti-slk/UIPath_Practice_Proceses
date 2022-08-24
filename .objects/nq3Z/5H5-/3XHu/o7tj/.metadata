@@ -1,0 +1,14 @@
+﻿{
+  "Id": "o7tjx2vitEKe1Jvh5-htEg",
+  "Reference": "kpis4QdBKUyBtbO37-LNGQ/o7tjx2vitEKe1Jvh5-htEg",
+  "ParentRef": "kpis4QdBKUyBtbO37-LNGQ/3XHunWqy9UeJm3JTQCQsxQ",
+  "Name": "Procurement_Anywhere_PurchaseOrder",
+  "Description": "This Element stores all the data related to the procurement anywhere Purchase order page",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-08-23T17:56:47.6689285Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-08-23T17:56:47.6689285Z"
+}

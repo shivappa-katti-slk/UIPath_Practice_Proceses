@@ -1,0 +1,145 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Extract_Data_From_ProcurementAnywhere" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="813,1009" sap2010:WorkflowViewState.IdRef="Extract_Data_From_ProcurementAnywhere_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Extract_Data_From_ProcurementAnywhere" sap:VirtualizedContainerService.HintSize="823,944" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe Automation'" sap:VirtualizedContainerService.HintSize="781,852" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="f794ecef2e5708aa14aa064efdf7776b" Selector="&lt;html app='chrome.exe' title='Automation Anywhere Labs - PO Tracking Lookup' /&gt;">
+      <ui:BrowserScope.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="747,666" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'PO Number'" sap:VirtualizedContainerService.HintSize="705,574" sap2010:WorkflowViewState.IdRef="NCheckState_1" Version="V1">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="401,358" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="359,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Selecting top 100 items..&quot;]" />
+                  <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'SELECT'" sap:VirtualizedContainerService.HintSize="359,134" sap2010:WorkflowViewState.IdRef="SelectItem_1" Item="100">
+                    <ui:SelectItem.Items>
+                      <scg:List x:TypeArguments="x:String" Capacity="4">
+                        <x:String>10</x:String>
+                        <x:String>25</x:String>
+                        <x:String>50</x:String>
+                        <x:String>100</x:String>
+                      </scg:List>
+                    </ui:SelectItem.Items>
+                    <ui:SelectItem.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a594672e-5cda-4bff-8570-92d927e833bc" InformativeScreenshot="a942eb7452ced0cf46d000d9e9ad0f2c" Selector="&lt;webctrl tag='SELECT' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:SelectItem.Target>
+                  </ui:SelectItem>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="250,84" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://developer.automationanywhere.com/challenges/AutomationAnywhereLabs-POtrackingLookup.html" ContentHash="Hj1-_sFzVEKUWwRTbg8B0g" DesignTimeRectangle="82, 567, 51, 21" ElementType="DropDown" FriendlyName="'Check App State 'PO Number''" FullSelectorArgument="&lt;webctrl tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='' class='' aaname='' /&gt;" Guid="4ec5a783-b387-4dce-ba17-fc01260ad649" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADcAAAAZCAYAAACVfbYAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEJSURBVFhH7dbbDYMgGIZhNtJZTLqKtxrDKnUUHcVLR/jrV6Cc2pDiIfnVNyEp4IVPIG0Fnbjr4Oq6Zj/cPrhwg2uu48ZxahVu6ARV/aRnbgNJIUiY0Q16/diycVNfvV88ximYXQ/nx5WBm+j5sKcSvrRCy4XkNMp47YD+xBkYXvT7ieCqxtdQPStHPc2oaRqa51nPbFhr21bP/DJOzvQNp/DxFVx3NQHDLSnL0gPiM9awh2fCWOCAKIrCA7ow7LloEwscCoEpGGKDQy4wBUMb45bVnb5QTAaYgqHNcUf8FACVgqHNcWbdnt6v5/ZvBxzSQDO4/f3i0I3j2vVwCBvch5uHO1snxhG9AJO9tTaD9fGLAAAAAElFTkSuQmCC" InformativeScreenshot="0d7c065b899a87c9ddad3228e069c672.png" Reference="kpis4QdBKUyBtbO37-LNGQ/-SQdtuzKd0yqsbF9aTR_yA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Anywhere Labs - PO Tracking Lookup' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="39, 605, 112, 70" ElementType="Text" FriendlyName="'Check App State 'PO Number''" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='TH' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TH' class='th-sm sorting_asc' aaname='PO Number                              ' check:innerText='PO Number' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHQAAABKCAYAAABq6nD6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANESURBVHhe7ZtBi9NAFMf9Cv06/VjNQVRW1BXRgx5sj4KCZw+SgndBBBGk9Lytu4dCl6pYQd26u89kO5OZSSaxdrPt5N//Dx40k9dseL/OS9rMXhMCxYXQ0dGEARIUChaOUNJMbH8UCgCFgkGhYFAoGBQKBoWCQaFgUCgYFAoGhYJBoWBQKBgUCgaFggEjdNhrS7tdEp1YZirPYdAt5vaGamcz2Q2haeSkVudHEk9VYsPAE5qfYdksNJJm/UiNtaU7WI4tGUpXjZfO6sDBF2pJWsoz21Hfpyyf3yzwheZn6DSWyN72UP7hCB88oWWh5WSCu8lc9JO1ZArdHlVCndZKoc1g5TbJltsMVpfAm6JG8D+zyv7a4ko1MqtacsjspNCULN8b/GFh66x13WvIT3+Lxbn038zk9PRcjZQDIxSZt+++yd69kbz/8F2NlEOhgTM9PpFHTw7l5p0Defz0SL58Xag9fig0YNIG++r18YVMHXHSeqsaL4UGzMH4p+w/HDtC7z4Yy+fDXyqjCIUGyu+TM3n2YuLI1PH85UT+lNwgUWigfPw0l739kdy+X4x0fDD8oTJdKBQMCgWDQsGgUDAoFAwKBWO7QrOHzZ5nkys8iK6btX7gD4xghBaeP1LoWgQkNFdICl2LsITa8jxCvQUv5OlVB+m2vQIhv98eW2IfP3udhmfRtb3qIY2yBdvdnnnmuoklLYEIjSTqqOLo4l1aqCc6yd8pjJtW70jMhyW1LM/cB/jOwf3wXBXBCI0H+rX6JNchVOfZKxMKY57j28W33uuel3XNL4xZ57Dhf6kIR2hSQNPGksLUINS0uKqxfxw/0RGr7pHOwHyrdaPqHDZDUELtQkTJtedyQs37Vh3Tx89/hbLHq4VqgRRqCl1YuFUs+FULXWmGVrZSCrUKbQq4DE/BvTcoOq8GoXZe/lqbnbMlK8spXkMpNMUqmr+4vtB5dQj1xJp3uRSq8M6WBPcaluzL7o51Xg1Ck5brSPO017xU97q7q0JJ7VAoGBQKBoWCQaFgUCgYFAoGhYJBoWBQKBgUCgaFgkGhYFAoGBQKBoWCQaFgeIVev3FLWq0Wo4GRutP+nBnKaH44QufzOaOBYfzN5S+OZpWQ7gCTZwAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </ui:BrowserScope.Body>
+    </ui:BrowserScope>
+  </Sequence>
+</Activity>

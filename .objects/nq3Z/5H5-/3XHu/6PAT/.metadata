@@ -1,0 +1,15 @@
+﻿{
+  "Id": "6PAT4qVc80u3AsWQ914FNA",
+  "Reference": "kpis4QdBKUyBtbO37-LNGQ/6PAT4qVc80u3AsWQ914FNA",
+  "ParentRef": "kpis4QdBKUyBtbO37-LNGQ/3XHunWqy9UeJm3JTQCQsxQ",
+  "Name": "Rememeber Credentials Text",
+  "Description": "This text is used to check whether bot has navigated to LoginPage ",
+  "Type": "Element",
+  "TaxonomyType": "Rememeber Credentials Text",
+  "Created": "2022-08-23T11:59:35.2013386Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-08-23T11:59:35.2013386Z"
+}

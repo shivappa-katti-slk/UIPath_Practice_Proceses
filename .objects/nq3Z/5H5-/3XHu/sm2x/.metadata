@@ -1,0 +1,15 @@
+﻿{
+  "Id": "sm2xYu95CkmUw-trXjY90w",
+  "Reference": "kpis4QdBKUyBtbO37-LNGQ/sm2xYu95CkmUw-trXjY90w",
+  "ParentRef": "kpis4QdBKUyBtbO37-LNGQ/3XHunWqy9UeJm3JTQCQsxQ",
+  "Name": "Click 'Sign in'",
+  "Description": "Signin Button - Login Page ",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-08-23T12:04:46.8114043Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-08-23T12:04:46.8114043Z"
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Id": "nq3ZhVI9e06DLgPHDagQvQ",
+  "Reference": "kpis4QdBKUyBtbO37-LNGQ/nq3ZhVI9e06DLgPHDagQvQ",
+  "Name": "Procurement_Anywhere_Landing_Page",
+  "Type": "App",
+  "Created": "2022-08-23T11:55:00.0650203Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-08-23T11:55:12.2880166Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

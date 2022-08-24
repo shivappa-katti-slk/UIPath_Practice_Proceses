@@ -1,0 +1,15 @@
+﻿{
+  "Id": "Mh4sRZQNzEu0Wxz-Y2ktXQ",
+  "Reference": "kpis4QdBKUyBtbO37-LNGQ/Mh4sRZQNzEu0Wxz-Y2ktXQ",
+  "ParentRef": "kpis4QdBKUyBtbO37-LNGQ/5H5-pAKG-EKzZQkKoY06Pg",
+  "Name": "Purchase_Order_Screen",
+  "Type": "Screen",
+  "Created": "2022-08-23T17:57:42.1825421Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-08-23T17:58:02.3147054Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

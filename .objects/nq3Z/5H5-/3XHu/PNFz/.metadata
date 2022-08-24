@@ -1,0 +1,15 @@
+﻿{
+  "Id": "PNFzqPiY-Em_pTriwrOY2Q",
+  "Reference": "kpis4QdBKUyBtbO37-LNGQ/PNFzqPiY-Em_pTriwrOY2Q",
+  "ParentRef": "kpis4QdBKUyBtbO37-LNGQ/3XHunWqy9UeJm3JTQCQsxQ",
+  "Name": "Check App State 'OK'",
+  "Description": "Check for the error popup",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-08-23T12:08:46.3636522Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-08-23T12:08:46.3636522Z"
+}

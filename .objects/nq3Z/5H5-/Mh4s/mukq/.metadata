@@ -1,0 +1,14 @@
+﻿{
+  "Id": "mukqiyyshEe4zueJArgGQA",
+  "Reference": "kpis4QdBKUyBtbO37-LNGQ/mukqiyyshEe4zueJArgGQA",
+  "ParentRef": "kpis4QdBKUyBtbO37-LNGQ/Mh4sRZQNzEu0Wxz-Y2ktXQ",
+  "Name": "Check App State '10'",
+  "Description": "Check for the entry Dropdown to ensure the right page is opened for data extraction",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-08-23T17:58:21.8446779Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-08-23T17:58:21.8446779Z"
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Id": "ST58oM_gMU6g3PqPVFjqPA",
+  "Reference": "kpis4QdBKUyBtbO37-LNGQ/ST58oM_gMU6g3PqPVFjqPA",
+  "ParentRef": "kpis4QdBKUyBtbO37-LNGQ/02hB8nzI50uBpCRttGouTw",
+  "Name": "Type Into 'Company Name'",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-08-24T10:00:38.9118884Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-08-24T10:00:38.9118884Z"
+}

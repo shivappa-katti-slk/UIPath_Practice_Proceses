@@ -1,0 +1,14 @@
+﻿{
+  "Id": "8STt8hslQk23P5d1GHAsbg",
+  "Reference": "kpis4QdBKUyBtbO37-LNGQ/8STt8hslQk23P5d1GHAsbg",
+  "ParentRef": "kpis4QdBKUyBtbO37-LNGQ/3XHunWqy9UeJm3JTQCQsxQ",
+  "Name": "Procurement_Anywhere_App_Link",
+  "Type": "Element",
+  "TaxonomyType": "App Link",
+  "Created": "2022-08-23T11:56:59.460186Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-08-23T11:56:59.460186Z"
+}
